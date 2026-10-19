@@ -87,6 +87,8 @@ python scripts/download_datasets_and_checkpoints.py
 
 Note: [ImageNet Validation](https://arxiv.org/abs/1409.0575) set is not downloaded automatically by the script above as it is too big, therefore you should manually download it (e.g. [from Kaggle](https://www.kaggle.com/code/joaoparana/download-imagenet-validation-set)) or symlink it to `data/datasets/ImageNet-val`.
 
+Alternatively, you can download [Waterbirds](https://huggingface.co/datasets/arubique/waterbirds) and [ImageNet-D](https://huggingface.co/datasets/Voxel51/ImageNet-D) from HuggingFace.
+
 ### Folder structure
 
 Upon a successful completion of the script `scripts/download_datasets_and_checkpoints.py` `data` folder will be created and will have the following structure:
